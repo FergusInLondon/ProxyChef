@@ -1,0 +1,22 @@
+{
+  "name": "ProxyChef",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "test": "jasmine --config=jasmine.json"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cyberchef": "^9.20.3",
+    "http-proxy": "^1.18.0",
+    "pino": "^6.2.1",
+    "pino-pretty": "^4.0.0",
+    "url-pattern": "^1.0.3"
+  },
+  "devDependencies": {
+    "jasmine": "^3.5.0"
+  }
+}

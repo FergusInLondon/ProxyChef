@@ -1,0 +1,6 @@
+{
+    "logging": {
+        "enabled": true,
+        "toCLI": false
+    }
+}
