@@ -7,6 +7,7 @@
     "run": "node main.js",
     "develop": "nodemon main.js",
     "lint": "eslint ./lib/**",
+    "unit": "mocha --recursive './lib/**/*.test.js'",
     "test": "jasmine --config=jasmine.json"
   },
   "keywords": [
@@ -23,6 +24,7 @@
     "dotenv": "^8.2.0",
     "glob": "^7.1.6",
     "http-proxy": "^1.18.0",
+    "mocha": "^7.1.2",
     "pino": "^6.2.1",
     "pino-pretty": "^4.0.0",
     "url-pattern": "^1.0.3"
