@@ -6,7 +6,7 @@
 
 // Parse environment config, load all .json rules, and then initiate the proxy
 require('dotenv').config()
-require('./lib/rules').load()
+require('./lib/rules').load('rules/*.rule.json')
 
 require('./lib/proxy').listen(
     require('./lib/config').LISTEN_PORT_HTTP
