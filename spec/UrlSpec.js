@@ -3,11 +3,7 @@ describe("url", () => {
 
     const reqGenerator = ({protocol, host, url}) => {
         return {
-            protocol,
-            originalUrl: url,
-            get(h) {
-                return host
-            }
+            url: `${protocol}://${host}${url}`
         }
     }
     
@@ -18,7 +14,7 @@ describe("url", () => {
         {protocol: "https", host: "mit.edu",            url: "/" },
         {protocol: "http",  host: "bbc.co.uk",          url: "/search" },
         {protocol: "http",  host: "news.sky.com",       url: "/" },
-        {protocol: "http",  host: "sports.bbc.co.uk",     url: "/" },
+        {protocol: "http",  host: "sports.bbc.co.uk",   url: "/" },
         {protocol: "http",  host: "github.com",         url: "/FergusInLondon" }
     ]
 

@@ -1,0 +1,21 @@
+{
+    "methods": [
+        "GET", "POST"
+    ],
+    "patterns": [
+        "http\\://www.mocky.io/v2/:mockId"
+    ],
+    "inbound": {
+        "cyberchef": {
+            "steps": [
+                {
+                    "operation": "toBase64"
+                },
+                {
+                    "operation": "toCharCode"
+                }
+            ]
+        },
+        "send": {}
+    }
+}

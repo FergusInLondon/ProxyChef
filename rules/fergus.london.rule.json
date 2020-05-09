@@ -1,0 +1,17 @@
+{
+    "methods": [
+        "GET", "POST"
+    ],
+    "patterns": [
+        "http\\://fergus.london/(:mockId)"
+    ],
+    "outbound": {
+        "blackhole": true,
+        "log": {},
+        "respond": {
+            "code": 404,
+            "content": "not found here."
+        },
+        "send": {}
+    }
+}

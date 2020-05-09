@@ -4,6 +4,8 @@
   "description": "",
   "main": "main.js",
   "scripts": {
+    "run": "node main.js",
+    "develop": "nodemon main.js",
     "test": "jasmine --config=jasmine.json"
   },
   "keywords": [],
@@ -11,12 +13,15 @@
   "license": "ISC",
   "dependencies": {
     "cyberchef": "^9.20.3",
+    "dotenv": "^8.2.0",
+    "glob": "^7.1.6",
     "http-proxy": "^1.18.0",
     "pino": "^6.2.1",
     "pino-pretty": "^4.0.0",
     "url-pattern": "^1.0.3"
   },
   "devDependencies": {
-    "jasmine": "^3.5.0"
+    "jasmine": "^3.5.0",
+    "nodemon": "^2.0.3"
   }
 }
