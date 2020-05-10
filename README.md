@@ -74,6 +74,14 @@ Initially the request will be logged, then a response will be built with a HTTP 
 }
 ```
 
+## Limitations
+
+At the moment the primary limitation is usability and documentation; notably:
+
+1. I haven't documented the actions at the moment, mainly because they've all been written ad-hoc to scratch various itches;
+2. the usability of having everything logged to the CLI is obviously not ideal, whilst logging to a database adds *a lot* of overhead and then requires a UI or way of retrieving it. A likely mitigation here is dumping requests/responses out to JSON files - but this will require a means for pairing requests and responses.
+
+
 ## License
 
 This project is licensed under the terms of the MIT License, please see the `LICENSE` file.
