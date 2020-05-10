@@ -1,6 +1,6 @@
-# ProxyChef ![Node.js CI](https://github.com/FergusInLondon/ProxyChef/workflows/Node.js%20CI/badge.svg)
+# ProxyChef [![Node.js CI](https://github.com/FergusInLondon/ProxyChef/workflows/Node.js%20CI/badge.svg)](https://github.com/FergusInLondon/ProxyChef/actions?query=workflow%3A%22Node.js+CI%22)
 
-A NodeJS based *man-in-the-middle* proxy, with support for custom intercepts and actions (i.e modification via GCHQ's [Cyberchef](#)).
+A NodeJS based *man-in-the-middle* proxy, with support for custom intercepts and actions (i.e modification via GCHQ's [Cyberchef](https://github.com/gchq/CyberChef/wiki/Node-API)).
 
 ## Architecture
 
